@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ GOLD'S GYM
+</title>
+<link rel="icon" href="./images/logo.png" >
+<style>
+
+.navbar 
+{
+  overflow:hidden;
+  background-color: white;
+  padding-bottom: 5px;
+  padding-right:30px;
+  padding-top:3px;
+}
+
+/* navbar a means a is anchor tag and we are designing anchor tags in navbar */
+
+.navbar > a 
+{
+  padding: 20px;
+  color:#ff6600;
+  text-decoration: none;
+}
+.navbar a.right 
+{
+  float: right;
+}
+.navbar a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+.grid-container
+{
+	display:grid;
+	grid-template-columns:100%;
+	background-color:#ffb31a;
+	padding:10px;
+	border:2px solid black;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container 
+{
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides 
+{
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover 
+{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container 
+{
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column 
+{
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo 
+{
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.grid-container 1
+{
+	display:grid;
+	grid-template-columns:100%;
+	background-color:#cc0099;
+	padding:10px; 
+}
+.box1
+{
+	display: grid;
+    grid-template-columns: 18% auto auto;
+	width:auto;
+	height:580px;
+	background-color:#ffb31a;
+	padding:10px;
+}
+.inbox1
+{
+	width:220px;
+	height:550px;
+	background-color:#6699ff;
+	padding:10px;
+	padding-right:0px;
+}
+.inbox2
+{
+	border:2px solid black;
+	width:750px;
+	height:550px;
+	padding:10px;
+	background-color: lightblue;`
+    overflow: scroll;
+}
+.navbar1
+{
+	width:95%;
+	height:35px;
+	background-color: #0d1a00;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:10px;
+	font-size:25px;
+	color:white;
+}
+p:hover
+{
+	background-color: #b3b3b3;
+}
+.inbox3
+{
+	width:400px;
+	margin-left:80px;
+	height:550px;
+	border:3px solid black;
+	padding:10px;
+}
+.inbox3 > img
+{
+	border:1px solid black;
+}
+.button
+{
+	border: 3px solid black;
+	padding: 10px;
+	background-color: powderblue;
+	cursor:pointer;
+	width:160px;
+	height:50px;
+}
+.faq
+{
+	width:95%;
+	height:35px;
+	margin-left:10px;
+	background-color: #0d1a00;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:10px;
+	font-size:25px;
+	color:white;
+}
+</style>
+</head>
+<body style="background-color: #f2f2f2">
+	<div class="navbar">
+		<img src="./images/logo1.png" alt="logo image not available" style="width:150px;height:50px;padding-top:5px;padding-left:5px" > 
+		<a href="./contact%20us.html" target="_blank" class="right"> <strong> CONTACT US </strong> </a>
+		<a href="./careers.html" target="_blank" class="right"> <strong> CARRERS</strong> </a>
+		<a href="./gym%20login.html" target="_blank" class="right"> <strong> LOGIN </strong> </a>
+		<a href="https://goldsgym.in/our-team.html" target="_blank" class="right"> <strong> ABOUT US </strong> </a>
+		<a href="#" class="right"> <strong> HOME </strong> </a>
+	</div>
+	</br></br>
+	<div class="grid-container">
+		<div style="padding-left:16%">
+			<div class="mySlides">
+				<img src="./images/picture4.jpg" style="width:800px;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>
+			<div class="mySlides">
+				<img src="./images/picture5.jpg" style="width:800px;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>
+				
+			<div class="mySlides">
+				<img src="./images/picture1.jpg" style="width:800px;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>
+			<div class="mySlides">
+				<img src="./images/picture7.jpg" style="width:800px;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>		
+			<div class="mySlides">
+				<img src="./images/picture2.jpg" style="width:800px;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>		
+			<div class="mySlides">
+				<img src="./images/picture8.jpg" style="width:800px;height:500px;padding-left:50px;padding-top:10px;padding-bottom:10px;">
+			</div>
+		</div>
+		</br>
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>			
+			
+		</br>
+			
+		
+	</div>
+	</br>
+	<div class="grid-container 1">
+		<div class="box1">
+			<div class="inbox1" >
+				<div class="navbar1" >
+					<strong> PACKAGES </strong> </br></br> 
+					<button class="button" onclick="myFunction1()">WEIGHT LOSS </button> <hr>
+					<button class="button" onclick="myFunction2()">WEIGHT GAIN</button> <hr>
+					<button class="button" onclick="myFunction3()">CARDIO</button> <hr>
+					<button class="button" onclick="myFunction4()">STRENGTH TRAINING</button> <hr>
+					<button class="button" onclick="myFunction5()">POWER LIFTING</button> <hr>
+					<button class="button" onclick="myFunction6()"> CALISTHENICS </button> <hr>
+				</div>
+			</div>
+			<div class="inbox2" style="overflow:scroll;width:500px;height:550px;margin-left:40px;text-align:justify">
+				<strong> WEIGHT LOSS </STRONG>
+				<div id="demo1" style="color:red"> </div> <hr>
+				<strong> WEIGHT GAIN </STRONG>
+				<div id="demo2" style="color:green"> </div> <hr>
+				<strong> CARDIO </STRONG>
+				<div id="demo3" style="color:red"> </div> <hr>
+				<strong> STRENGTH TRAINING </STRONG>
+				<div id="demo4" style="color:green"> </div> <hr>
+				<strong> POWER LIFTING </STRONG>
+				<div id="demo5" style="color:red"> </div> <hr>
+				<strong> CALISTHENICS </STRONG>
+				<div id="demo6" style="color:green"> </div> <hr>
+			</div>
+			<div class="inbox3">
+			    <img src="./images/img1.jpg" alt="error" style="width:150px;height:150px">
+				<img src="./images/img2.jpg" alt="error" style="width:150px;height:150px;position:absolute;top:114;left:81%" > </br></br>
+				<a href="https://www.gettyimages.in/photos/golds-gym?phrase=gold%27s%20gym&sort=mostpopular" target="_blank" > click here to check the images of our GYM</a>	
+				<hr>
+				<div>
+					<div class="faq";> 
+						<strong> FAQ'S </strong>
+						<br><br>
+						<div style="font-size:15px;">
+							<p>Q1:DO WE NEED TO JOIN GYM FOR WEIGHT LOSS ?</P>
+							<p>ANS:WEIGHT LOSS AT HOMES IS NOT CONSISTENT WHERE AS MEIGHT LOSS AT AT GYM MAKES IT CONSISTENT.</P>
+							<P>Q2:WHY SHOULD I JOIN YOUR GYM?</P>
+							<P>ANS:THE TRAINERS YOU GET ARE HIGHLY QUALIFIED AND THEY GIVE SOME TIPS AND TRICKS REGARDING YOUR PROGRAM YOU SELECT.</P>
+							<P>Q3:WHICH IS BEST PROGRAM FOR OVERALL DEVELOPMENT?</P>
+							<P>ANS:CALISTHENICS.</P>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+function myFunction1() 
+{
+  document.getElementById("demo1").innerHTML = 
+   "package1:weight Loss </br></br> To lose weight, you need to burn more calories than you consume </br> Exercise can help you achieve this by burning off some extra calories.</br> However, some people claim that exercise isn’t effective for weight loss on its own.</br>This may be because exercise increases hunger in some people,making them eat more calories than they burned during the workout.</br></br>Price:5000/-";
+  
+}
+function myFunction2() 
+{
+  document.getElementById("demo2").innerHTML = 
+  "package2:Weight Gain </br></br> You will gain weight from lean muscle mass that you add by building your muscles with exercise or weightlifting.</br>But this won't happen right away.</br> It will take you at least a month or two to add any lean muscle mass that would show up in your </br>weightBench presses help build shoulder, tricep, and chest muscles. </br>This is a good exercise for bulking up. The more weight you can bench, the more muscle you'll build. </br>You may want to perform this exercise with the help of a spotter for safety</br></br>Price:5000/-";
+}
+function myFunction3() 
+{
+  document.getElementById("demo3").innerHTML = 
+  "package3:Cardio </br></br> Burpees: Burpees are a combination of squats, jumps, and pushes..</br> Rope jumping: This is another great workout for fat burning because it burns about 1,300 calories per hour. ... </br>Low-intensity cardio: If your obese or have physical limitations, you should opt for low-intensity cardio for weight loss.</br></br>Price:6000";                                 
+}
+function myFunction4() 
+{
+  document.getElementById("demo4").innerHTML = 
+  "package4:strength Training</br></br>Human evolution led to five basic movements, which encompass nearly all of our everyday motions.</br> Meaning your workout needs just five exercises, one from each of these categories: </br>push (pressing away from you), pull (tugging toward you), hip-hinge (bending from the middle), squat (flexing at the knee), and plank.</br></br>Price:4500";
+}
+function myFunction5() 
+{
+  document.getElementById("demo5").innerHTML = 
+  "package5:Power Lifting</br></br> Compound lifts, like squats, deadlifts, and lunges, are great for working multiple muscle groups at once. Use heavier weights for these exercises. Exercise with about 10% less than the maximum you can lift. Don't strain your body by lifting the absolute most you can every time.Your goals dictate the range of reps you should perform, and for how many sets you should do them: To develop maximal strength, lifting incredibly heavy for</br>2–6 sets of 6 or fewer reps is ideal, while lifting heavy-to-moderate weights for 3–6 sets of 8–12 reps is the way to go when it comes to building muscle size</br></br>Price:6000";
+}
+function myFunction6() 
+{
+  document.getElementById("demo6").innerHTML = 
+  "package6:Calisthenics</br></br>You can do a combination of calisthenics and weightlifting exercises in a single strength-training session. Do them on alternative days. If you prefer to focus on one method at a time, try alternating between calisthenics and weightlifting throughout the weekCan you build muscle with calisthenics using just your bodyweight? That's a question we get asked all the time. The simple and short answer is “yes, of course you can”</br></br>Price:5500";
+}
+</script>
+		</div>
+	</div>
+		
+</body>
+</html>
